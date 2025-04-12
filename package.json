@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "docker build -f DockerFile -t dickymarcell/nodejs-be . && docker push dickymarcell/nodejs-be"
+    "docker:build": "docker build -f DockerFile -t dickymarcell/nodejs-be . && docker push dickymarcell/nodejs-be"
   },
   "keywords": [],
   "author": "",
